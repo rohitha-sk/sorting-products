@@ -1,16 +1,7 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+I have created a product sorting page for practicing the sorting logics for further projects.
+<img width="1566" height="966" alt="image" src="https://github.com/user-attachments/assets/84ff09ff-789f-42e2-a962-3677df21c97b" />
+just ignore the UI part for now. I have more focused on the logics and the state management part on this page. so here I have created a dropdown with several options for sorting products ascending order or descending order. 
+there for each dropdown option, I have written separate sorting logic. previousely I wrote it as a if else condition and later I was changed it as a object properties to implement by selecting object property as a value and then implement the respective function.
+<img width="971" height="748" alt="image" src="https://github.com/user-attachments/assets/570ac025-80e0-4302-ab92-0b95f552ed89" />
