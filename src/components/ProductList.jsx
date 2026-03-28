@@ -62,7 +62,6 @@ const handleSortChange = (value) => {
       {/* ── Header ── */}
       <div className="bg-white border-b border-slate-100 px-6 py-8 md:px-12">
         <div className="max-w-5xl mx-auto">
-          <p className="text-xs uppercase tracking-widest text-slate-400 mb-1">React Practice</p>
           <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
             <div>
               <h1 className="text-4xl font-bold text-slate-900 leading-tight">Products</h1>
